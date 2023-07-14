@@ -1,0 +1,14 @@
+trying to terminate the first ping command and start to list the content of current dir
+;ls
+
+there is a file called flag (elf binary) so we can execute it but the word flag is forbidden so let's try wildcards
+;/fla?
+
+worked and gave us the path to the flag file
+/tmp/fla?_VICTEO.txt
+
+spcing commands is not allowed so we can redirect the stream of this file to cat 
+;cat</tmp/fla?_VICTEO.txt
+
+and voila 
+EGCERT{3x3cut3_d38e99_c0Mm2nD$_With0ut_Sp2c3s}

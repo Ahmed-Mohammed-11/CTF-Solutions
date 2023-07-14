@@ -1,0 +1,23 @@
+OHNFUMWSVZLXEGCPTAJDYIRKQB 
+
+
+no purpose for this in the solution the key is up there 
+
+Suauypcg Xuwaogf oacju, rvds o waoiu ogf jdoduxq ova, ogf hacywsd eu dsu huudxu
+mace o wxojj noju vg rsvns vd roj ugnxcjuf. Vd roj o huoydvmyx jnoaohouyj, ogf, od
+dsod dveu, yglgcrg dc godyaoxvjdj—cm ncyaju o wauod pavbu vg o jnvugdvmvn pcvgd
+cm ivur. Dsuau ruau drc acygf hxonl jpcdj guoa cgu ukdauevdq cm dsu honl, ogf o
+xcgw cgu guoa dsu cdsua. Dsu jnoxuj ruau uknuufvgwxq soaf ogf wxcjjq, rvds oxx dsu
+oppuoaognu cm hyagvjsuf wcxf. Dsu ruvwsd cm dsu vgjund roj iuaq aueoalohxu, ogf,
+dolvgw oxx dsvgwj vgdc ncgjvfuaodvcg, V ncyxf soafxq hxoeu Zypvdua mca svj cpvgvcg
+aujpundvgw vd.
+
+Dsu mxow vj: pvncNDM{5YH5717Y710G_3I0XY710G_03055505}
+
+
+
+Illustration: 
+In this simple shift cipher, the key space is small. The best case for a mono-alphabetic cipher does not have a small key space, however. If A is randomly assigned to one of the 26 letters, B one of the remaining 25, C to one of the remaining 24, and so on, we create a table for the key that looks like this:
+Plaintext character: a b c d e f g h i j k l m n o p q r s t u v w x y z
+Key character: X F Q G A W Z S E D C V B N M L K J H G T Y U I O P
+This is called a mono-alphabetic substitution cipher. For this cipher, there is no equivalent addition for encrypting the plaintext. The key is the whole table, and each letter is substituted by the key character. Decryption uses the same key, but you look up the ciphertext character on the bottom row and substitute the top-row character.

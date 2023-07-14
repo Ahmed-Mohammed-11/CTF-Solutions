@@ -1,0 +1,5 @@
+rgnoDVD{O0NU_WQ3_G1G3O3T3_A1AH3S_cc82272b}
+key = CYLAB
+
+
+you can use this website to break the cipher -> https://www.boxentriq.com/code-breaking/vigenere-cipher

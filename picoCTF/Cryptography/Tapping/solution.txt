@@ -1,0 +1,4 @@
+1. connect to the server via netcat -> nc jupiter.challenges.picoctf.org 21610.
+2. you will find some dots and dashes (seems to be some morse code).
+3. decrypt it using some online tool like -> https://morsedecoder.com/
+	or even manually

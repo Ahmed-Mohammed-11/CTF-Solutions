@@ -1,0 +1,11 @@
+{
+    "debug.terminal.clearBeforeReusing": true,
+    "terminal.explorerKind": "external",
+    "terminal.integrated.bellDuration": 100,
+    "terminal.integrated.defaultLocation": "editor",
+    "terminal.integrated.fontSize": 10,
+    "terminal.integrated.lineHeight": 0,
+    "markdown.preview.lineHeight": 1,
+    "editor.letterSpacing": -1,
+    "terminal.integrated.letterSpacing": -1
+}
