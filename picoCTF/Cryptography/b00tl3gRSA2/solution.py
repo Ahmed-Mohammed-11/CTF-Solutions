@@ -15,4 +15,3 @@ for i in range(100000):
     message = long_to_bytes(message)
     if(message.startswith(b"picoCTF{")):
         print(message)
-
