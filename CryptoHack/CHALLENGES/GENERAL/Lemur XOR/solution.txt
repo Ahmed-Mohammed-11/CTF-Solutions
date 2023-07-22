@@ -1,0 +1,7 @@
+I used this jar file to solve this visual XOR problem 
+steps
+1. open one of the two files using open option in the tool
+2. go to analyse
+3. choose image combiner
+4. select the second image 
+5. done
