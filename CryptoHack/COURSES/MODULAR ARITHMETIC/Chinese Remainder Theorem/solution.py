@@ -26,3 +26,11 @@ if __name__ == '__main__':
     m = [5, 11, 17]
     a = [2, 3, 5]
     print(chinese_remainder(m, a))
+
+
+#second solution
+
+# from sympy.ntheory.modular import crt
+# m = [5, 11, 17]
+# v = [2, 3, 5]
+# print("Result of the Chinese Remainder Theorem = {} ".format(crt(m , v)[0]))
