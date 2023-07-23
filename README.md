@@ -1,6 +1,6 @@
 # CTF Solutions
 
-In the world of cybersecurity, Capture the Flag (CTF) competitions provide exciting challenges that put your hacking and problem-solving skills to the test. This repository is designed to be a collection of your CTF solutions, allowing you to showcase your expertise, collaborate with others, and keep track of your progress.
+In the world of cybersecurity, Capture the Flag (CTF) competitions provide exciting challenges that put your hacking and problem-solving skills to the test. This repository is designed to be a collection of CTF solutions.
 
 # Usage
 Feel free to explore this repository and use the solutions provided as a reference or learning resource. The solutions are organized by CTF competition and field, making it easy to find specific challenges you may be working on.
