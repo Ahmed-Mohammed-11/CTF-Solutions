@@ -1,0 +1,20 @@
+tried to use pre-padding of 0 filled bytes to study the behavior of the oracle when providing 00000000000000 (7 bytes as input) it seems that the cipher is
+
+cipher = "22c307394160bf49e1476c403fe0d7e1" \
+          "11af1a54f655552ad47dc3e3da6cd5e4" \
+          "c0ab7314c00f986d20da2942f2af75d3"
+
+the first 16 bytes are as follows (the first 7 bytes are the zeros prepadding) and another 9 bytes from crypto flag the second 16 bytes are the rest of the flag the last 16 bytes are the padding from pad() function
+so if I add another byte to the input it would be like this:
+
+cipher = "7fba01c315a92201e485da95cf9b3c8b" \
+         "dfa133c691244b80a2b214b8cc624e02" \
+         "3e646d70fde9e0d8107166a26de4527f"
+
+now the last line is 7d0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f or the } and the padding
+          3e646d70fde9e0d8107166a26de4527f
+result = "3e646d70fde9e0d8107166a26de4527f" \
+         "326fbdda174d72f1abfe52d0c2dfe3f9" \
+         "a21086fa2d3bd40b7ab6c40ca83b014d"
+
+the first 16 bytes are the same as the last 16 in the previous cipher so what we need to do now is performing the same task on the rest of bytes
