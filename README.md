@@ -16,6 +16,7 @@ Create a new branch for your contributions:
 
 `git checkout -b your-branch-name`
 <br>
+<br>
 1. Add your solutions, ensuring they are well-documented and organized.
 2. Commit your changes and push them to your forked repository.
 3. Create a pull request, providing a clear description of your changes.
@@ -23,4 +24,5 @@ Create a new branch for your contributions:
 
 # License
 The content of this repository is licensed under the MIT License. You are free to use, modify, and distribute the solutions, provided you include the appropriate attribution and adhere to the terms of the license.
+
 
