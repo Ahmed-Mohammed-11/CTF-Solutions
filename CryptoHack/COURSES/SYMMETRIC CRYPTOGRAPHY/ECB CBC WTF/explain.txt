@@ -1,0 +1,16 @@
+2f38c9b1c8ec5ad7a3bfcf2404f023f0
+8cb5ee2346eca2062e52654e49ba2a8f
+76bafa14294c98d1a7cc0290965b3441
+
+
+encryption using CBC mode with a random IV as the first block:
+results in some cipher text and when you make this cipher block as
+input to the decryption of AES you actually get intermediary block
+intermediary = IV XOR plaintext
+and for the rest of the blocks you get
+-> intermediary = previous_cipher_block XOR plain_text
+-> plain_text = intermediary XOR previous_cipher_block
+
+so what we have to do is divide the cipher text into blocks each of 16 bytes of course
+and then using AES ECB decrypt function provided to decrypt each block and then XOR the
+intermediary with the previous cipher block to get the plain text
