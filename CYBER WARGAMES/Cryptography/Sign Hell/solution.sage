@@ -9,8 +9,8 @@ S2_2 = 6867954782824337551431068026649485254101579355264484054735973855219065515
 M2 = 72806286902263394705316816549464657379709846016726775599736310511877561077198
 
 
-# now constructing a polynomial ring under mod p-1
-# note multiplying by k in both sides to git rid of k^-1
+# Now constructing a polynomial ring under mod p-1
+# Note: multiplying by k in both sides to git rid of k^-1
 
 F = Zmod(p-1)
 PR.<a, k> = PolynomialRing(F)
